@@ -1,0 +1,74 @@
+# -------------------------------
+# Visual Studio & .NET
+# -------------------------------
+
+## Build results
+[Bb]in/
+[Oo]bj/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.vsp
+*.vspscc
+*.vssscc
+
+## VS Code folders
+.vscode/
+
+## Visual Studio 2022
+.vs/
+
+## Build and publish folders
+artifacts/
+publish/
+out/
+
+## Temp files
+*.log
+*.tmp
+*.temp
+
+## ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+## Rider
+.idea/
+
+## DotCover
+*.dcvr
+
+## Azure Pipeline
+*.azure-pipelines.yml
+
+## IIS Express
+.vs/
+*.iisexpress/
+*.vsconfig
+
+## EF Core Migrations snapshots
+**/*_Snapshot.cs
+
+# -------------------------------
+# Configuration
+# -------------------------------
+
+# Do NOT ignore appsettings.json
+# (Uncomment this section only if you want to exclude secrets)
+# appsettings.*.json
+# !appsettings.Development.json
+
+# -------------------------------
+# Logs
+# -------------------------------
+
+*.log
+
+# -------------------------------
+# Others
+# -------------------------------
+
+# Include environment-specific files
+!.env
